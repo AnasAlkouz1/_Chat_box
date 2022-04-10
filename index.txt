@@ -1,0 +1,107 @@
+
+
+// هيي الرسالة تبعي يلي بتظهر عندي 
+<div class='div_ref_mm_cssr7975448964 div_ref_mm_cssr7975448966'>
+<div class='div_ref_img_css644787543'>
+<img src="/images/__vs_profile/c1197ac98253-1638462529617995a542ef380_vs.jpg" class="img_ref_css_box_568766435873_556_mm_i">
+</div>
+<div class='div_ref_mm_css6545886434'>
+dvdvdvedegv dvdvdvedegv dvdvdvedegv dvdvdvedegv dvdvdvedegv dvdvdvedegv dvdvdvedegv dvdvdvedegv
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+/ هيي الرسالة تبعو يلي بتظهر عندي 
+<div class='div_ref_mm_cssr7975448964 div_ref_mm_cssr7975448965'>
+<div class='div_ref_img_css644787543'>
+<img src="${userbox.users[0].img_file__vs}${userbox.users[0].img}" class="img_ref_css_box_568766435873_556_mm_i">
+</div>
+<div class='div_ref_mm_css6545886433'>
+dvdvdvedegv dvdvdvedegv dvdvdvedegv dvdvdvedegv dvdvdvedegv dvdvdvedegv dvdvdvedegv dvdvdvedegv
+</div>
+</div>
+
+
+
+
+كلاس الاوفر فلو تبع المسجس 
+//div_ref_m_css654479743TT
+
+
+
+
+
+
+
+
+// div_ref_css_emoji_p_65448986434332
+
+
+
+
+$(document.body).on(__event,'div.emoji-content>div:not(#emoji-recently)>span>img[alt="☝️"]',function(){
+$(this).closest('.emoji-content').next().find('div.emoji-picker__variant-overlay').remove()
+if($(this).closest('.emoji-content').next().find('div.emoji-picker__variant-overlay').length !==0){
+return false;
+}else{
+$(this).parent().addClass('open-picker_J_S_E_E_kZ')
+$(this).closest('.emoji-content').next().find('div.emoji-picker__variant-overlay').remove()
+$(this).closest('.emoji-content').next()
+.append(`
+<div class=emoji-picker__variant-overlay>
+<div class=emoji-picker__variant-popup>
+
+
+</div> 
+</div>
+`)
+
+
+
+
+
+$("img.img_g_t_r_e_t_erwq_d_eq_w_s_a_r_u_f").click(function(){
+const ImgSrc=$(this).attr('src')
+const ImgAlt=$(this).attr('alt')
+
+
+
+const inputSrc=$(this).closest('.emojiPicker_p_h_i_d_Tw').prev()
+.find('div.div_ref_css_i56886434548>div.row>div.col-8>div.div_ref_css_in8754589844>div.div_ref_css_input_4687433698632')
+
+const removeSpan=$(this).closest('.emojiPicker_p_h_i_d_Tw').prev()
+.find('div.div_ref_css_i56886434548>div.row>div.col-8>div.div_ref_css_in8754589844>div.div_n_577544889085333')
+
+
+const emoji_input_icon=$(this).closest('.emojiPicker_p_h_i_d_Tw').prev()
+.find('div.div_ref_css_i56886434548>div.row>div.col-8>div.div_ref_css_in8754589844>div.div_ref_css_emoji_p_65448986434332')
+
+
+$(removeSpan).hide()
+$(emoji_input_icon).addClass('div_ref_css_emoji_p_65448986434dd332TT')
+$(inputSrc).find('br').remove()
+$(inputSrc).append(`
+<img contenteditable="true"  draggable="false" class="emoji img_h_l_d_t_A_f_R_t_z_e_w_er_d_tw_emoji" alt="${ImgAlt}" src="${ImgSrc}">
+`)
+$(inputSrc).blur()
+
+
+GetLastEmoji(ImgAlt)
+$(this).parent().parent().remove();
+
+
+
+
+});
+$(this).parent().removeClass('open-picker_J_S_E_E_kZ')
+return false;
+
+
+

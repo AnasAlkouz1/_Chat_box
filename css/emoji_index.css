@@ -1,0 +1,246 @@
+
+/* img {
+display: block;
+} */
+
+
+.emoji-picker { 
+background-color: #FFFFFF;
+height: 380px;
+border: 2px solid #dee2e6;;
+display: none;
+}
+.emoji-picker_toggeld{
+display: block;
+position: relative;
+border-radius: 5px;
+overflow: hidden;
+top: -496px;
+bottom: 0;
+z-index: 99999999;
+}
+.emoji-picker_toggeld_v1{
+top: -476px !important;
+}
+.emoji-picker_toggeld_v2{
+top: -532px !important;
+}
+    
+
+
+
+
+
+.emoji-selectables {
+background-color: #FFFFFF;
+width: 58px;
+height: 100%;
+padding: 10px 15px;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-right: 2px solid #dee2e6;
+border-top-left-radius: 1rem;
+border-top-right-radius: 0rem;
+border-bottom-right-radius: 0rem;
+border-bottom-left-radius: 1rem;
+
+
+
+}
+
+.emoji{
+width: 1.5em;
+height: 1.5em;
+}
+.emoji-selectables span {
+margin-bottom: 10px;
+cursor: pointer;
+}
+.emoji-selectables span:first-of-type{
+margin-top: 0.2rem;
+}
+.emoji-selectables span:first-of-type>img{
+width: 32px;
+margin-top: 5px;
+}
+
+.emoji-selectables span.active img {
+filter: none;
+}
+
+.emoji-selectables span img {
+width: 1.5em;
+height: 1.5em;
+margin: 0 .05em 0 .1em;
+vertical-align: -0.1em;
+display: flex;
+align-items: center;
+filter: grayscale(100%)
+}
+.emoji-content div:not(
+.emoji-picker__variant-overlay,.emoji-picker__variant-popup,.div_r_t_e_P_t_z_e_s_e_d_aw_r_emoji_tW,.div_r_t_e_P_t_z_e_s_e_d_aw_r_emoji_tW>div) {
+width: 88%;
+flex-wrap: wrap;
+padding: 5px;
+position: absolute;
+top: 0;
+left: 53px;
+margin-left: 6px;
+}
+.div_r_t_e_P_t_z_e_s_e_d_aw_r_emoji_tW{
+width: 100%;
+text-align: left;
+margin-bottom: 1rem;
+padding: 0.5rem;
+font-weight: 500;
+border-bottom: 2px solid #dee2e6;
+height: 40px;
+margin-left: -5px;
+}
+div.div_r_t_e_P_t_z_e_s_e_d_aw_r_emoji_tW>div{
+display:inline;
+font-size: 14px;
+}
+div.div_r_t_e_P_t_z_e_s_e_d_aw_r_emoji_tW>div:last-child{
+float: right;
+}
+
+.emoji-picker__variant-overlay {
+background: rgba(62, 74, 97,0.4);
+position: relative;
+right: 0;
+left: 0;
+bottom: 73px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+animation: fade-in 0.2s ease-in-out;
+border-top-left-radius: 0rem;
+border-top-right-radius: 0rem;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+
+
+}
+
+.emoji-picker__variant-popup {
+margin: 0.5em;
+padding: 0.5em;
+border-radius: 5px;
+user-select: none;
+}
+
+.emoji-picker__variant-popup>img{
+display: inline-block;
+margin-left: 1rem !important;
+width: 2em;
+height: 2em;
+cursor: pointer;
+}
+
+.emoji-content span:not(.emoji_tw_t__render_f_o_r_m_l_o){
+display: block;
+padding: 5px;
+cursor: pointer;
+}
+.emoji_tw_t__render_f_o_r_m_l_o{
+padding: 5px;
+cursor: pointer;
+}
+.emoji_tw_t__render_f_o_r_m_l_o>img{
+width: 1.5em;
+height: 1.5em;
+vertical-align: -0.1em;
+}
+
+
+.emoji-content {
+padding: 5px;
+}
+.emoji-content span:hover{
+background-color: #dedede;
+}
+
+.picker-emoji-content {
+display: none;
+
+}
+
+.picker-emoji-sel.face {
+color: aliceblue;
+font-size: 10px;
+}
+
+.picker-emoji-content:not(.c__emoji-recently).active{
+display: flex;
+height: 100%;
+overflow-y: scroll;
+
+}
+
+.emoji-content span img {
+width: 1.5em;
+height: 1.5em;
+vertical-align: -0.1em;
+}
+
+
+.picker-emoji-content::-webkit-scrollbar-thumb {
+height: 10px;
+background-color: #dedede;
+border-radius: 10px;
+
+}
+
+
+.picker-emoji-content::-webkit-scrollbar {
+width: 1px;
+}
+
+.input_t_e_ot_w_t_z_in_e_h_H{
+-moz-appearance: textfield;
+-webkit-appearance: textfield;
+background-color: white;
+background-color: -moz-field;
+border: 1px solid darkgray;
+box-shadow: 1px 1px 1px 0 lightgray inset;  
+font: -moz-field;
+font: -webkit-small-control;
+margin-top: 5px;
+padding: 2px 3px;
+width: 398px;    
+height: 400px;
+}
+
+.img_h_l_d_t_A_f_R_t_z_e_w_er_d_tw_emoji{
+background-size: 1em 1em;
+padding: 0.15em;
+-webkit-text-fill-color: transparent;
+width: 1.6em;
+height: 1.6em;
+display: inline;
+}
+
+
+
+
+
+img.img_C_l_s_T_h_hi_e_r_E_g_t_toggeld_t_h_E_m_TW{
+width: 23px;
+cursor: pointer;
+margin-right: 0.5rem;
+}
+
+div.emoji_recently_l_l_S_i_f_c_i{
+display: flex;
+position: absolute;
+top: 51px;
+left: 0;
+}
+
+
+
+.c__emoji-recently{
+display: block;
+}
