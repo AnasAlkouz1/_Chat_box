@@ -3,11 +3,9 @@ $("img.img_g_t_r_e_t_erwq_d_eq_w_s_a_r_u_f").click(function(){
 const ImgSrc=$(this).attr('src')
 const ImgAlt=$(this).attr('alt')
 
-<<<<<<< HEAD
 
-=======
-2
->>>>>>> 852bf7f7b41a4712ddb6f21b702c641b2c131abc
+
+
 
 const inputSrc=$(this).closest('.emojiPicker_p_h_i_d_Tw').prev()
 .find('div.div_ref_css_i56886434548>div.row>div.col-8>div.div_ref_css_in8754589844>div.div_ref_css_input_4687433698632')
