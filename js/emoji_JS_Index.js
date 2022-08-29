@@ -25,7 +25,7 @@ $(obj).append(/*html*/`
 
 <div id="emoji-recently" class="picker-emoji  picker-emoji-content c__emoji-recently active">
 <div class='div_r_t_e_P_t_z_e_s_e_d_aw_r_emoji_tW'>
-<div>Recently</div>
+<div>Neulich</div>
 <div><img src='./web-img/close_emojiPicker.svg' class='img_C_l_s_T_h_hi_e_r_E_g_t_toggeld_t_h_E_m_TW'></div>
 </div>
 
