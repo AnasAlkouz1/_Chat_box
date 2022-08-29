@@ -43,7 +43,7 @@ return charCount + lastNodeLength;
 var update = function(ele) {
 var el =ele
 var range = window.getSelection().getRangeAt(0);
-console.log("Caret pos: " + getCharacterOffsetWithin_final(range, el))
+
 
 
 if(getCharacterOffsetWithin_final(range, el) > 0 || $(ele).children('img').length > 0 ){

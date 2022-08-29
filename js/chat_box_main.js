@@ -1,9 +1,7 @@
- /// <reference path="./typings/globals/jquery/index.d.ts" />
-/// <reference path="./typings/globals/jquery/index.d.ts" />
 
 
 
-const Aarray_text=[
+const users_Array=[
 
 {
 Active: true,
@@ -43,7 +41,6 @@ idname: 's_useralkouz__100000440'
 id_room: 'd7337be4xb6b0x41ae',
 message: [],
 __v_build: '2021-12-02T15:28:58.422Z',
-__v: 0
 },
 
 
@@ -65,9 +62,6 @@ idname: 's_useralkouz__100000440'
 id_room: 'd7337be4xb6b0x41ae',
 message: [],
 __v_build: '2021-12-02T15:28:58.422Z',
-createdAt: '2021-12-02T15:28:58.429Z',
-updatedAt: '2021-12-02T18:42:56.969Z',
-__v: 0
 },
 ];
 
@@ -75,7 +69,7 @@ __v: 0
 
 (async()=>{
 try{
-const response_users=Aarray_text;
+const response_users=users_Array;
 
 const online_nummber=response_users.filter((x)=>x.users[0].online===true)
 const besy_nummber=response_users.filter((x)=>x.users[0].busy===true)
@@ -94,7 +88,7 @@ $('span.span_ref__css5797643490').text(online_nummber.length)
 
 
 
-async function Read_LocalStorig(){
+async function __read_localStorage(){
 
 try{
 const users=JSON.parse(localStorage.getItem('users_box'))
@@ -245,7 +239,7 @@ localStorage.removeItem('users_box')
 }
 
 }
-Read_LocalStorig();
+__read_localStorage();
 
 
 
@@ -767,7 +761,7 @@ $(this).prev().focus()
 
 
 }catch{
-console.log(err)
+throw new Error('Err_type_1____986889ß0965886534')
 }
 
 }
@@ -810,7 +804,7 @@ console.log(resalt)
 
 
 }catch(err){
-console.log(err)
+throw new Error('Err_type_1____986889ß0965886534')
 }
 })();
 
